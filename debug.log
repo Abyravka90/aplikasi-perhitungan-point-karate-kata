@@ -1,0 +1,1244 @@
+- 17:36:31.140 INFO: --------------------------------------------------------
+- 17:36:31.140 INFO: Started application
+- 17:36:31.140 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:36:31.156 INFO: Log level = DEBUG4
+- 17:36:31.156 INFO: Starting Mongoose 3.9c web server
+- 17:36:31.156 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:36:31.156 INFO: Index files: index.html,index.php
+- 17:36:31.156 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:36:31.156 INFO: CGI pattern: **.php$
+- 17:36:31.156 INFO: Hide files patterns: 
+- 17:36:31.156 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:36:31.156 INFO: Web server url: http://127.0.0.1:54256/
+- 17:36:31.156 INFO: remote_debugging_port = 50546
+- 17:36:31.172 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=50546
+- 17:36:33.890 DEBUG: App::OnContextInitialized()
+- 17:36:33.890 DEBUG: Window max width/height = 1286/680
+- 17:36:33.890 DEBUG: GetBrowserWindow(): not found, hwnd = 1573586
+- 17:36:33.890 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:36:33.890 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:36:33.890 DEBUG: StoreBrowserWindow(): hwnd = 1573586
+- 17:36:33.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=9B2C244FAB0133F2EE5D0F31D553F5E3 --mojo-platform-channel-handle=1836 /prefetch:2
+- 17:36:33.984 DEBUG: ClientHandler::OnAfterCreated()
+- 17:36:33.984 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:36:33.000 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:36:33.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=680234366DA0D80039701BC38782C9E7 --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=680234366DA0D80039701BC38782C9E7 --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+- 17:36:33.062 DEBUG: OnBrowserCreated()
+[1218/173633.854:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:36:35.812 INFO: GET 200 /
+- 17:36:35.515 INFO: GET 200 /style.css
+- 17:36:35.531 INFO: GET 200 /banner/banner2.jpg
+- 17:36:35.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54256/
+- 17:37:09.062 DEBUG: WM_DESTROY
+- 17:37:09.062 DEBUG: RemoveBrowserWindow(): hwnd = 1573586
+- 17:37:09.078 INFO: Stopping Mongoose web server
+- 17:37:09.078 DEBUG: Mongoose webserver stopped immediately
+- 17:37:09.078 DEBUG: OnBeforeClose() hwnd=1836296
+- 17:37:09.078 DEBUG: RemoveBrowserWindow(): hwnd = 1836296
+- 17:37:09.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1836296
+- 17:37:09.078 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:37:09.078 DEBUG: Calling CefQuitMessageLoop()
+- 17:37:09.140 INFO: Ended application
+- 17:37:09.140 INFO: --------------------------------------------------------
+- 17:38:30.109 INFO: --------------------------------------------------------
+- 17:38:30.109 INFO: Started application
+- 17:38:30.109 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:38:30.109 INFO: Log level = DEBUG4
+- 17:38:30.109 INFO: Starting Mongoose 3.9c web server
+- 17:38:30.109 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:38:30.109 INFO: Index files: index.html,index.php
+- 17:38:30.109 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:38:30.125 INFO: CGI pattern: **.php$
+- 17:38:30.125 INFO: Hide files patterns: 
+- 17:38:30.125 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:38:30.125 INFO: Web server url: http://127.0.0.1:54288/
+- 17:38:30.140 INFO: remote_debugging_port = 55341
+- 17:38:30.140 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=55341
+- 17:38:30.219 DEBUG: App::OnContextInitialized()
+- 17:38:30.219 DEBUG: Window max width/height = 1286/680
+- 17:38:30.234 DEBUG: Window max size exceeded, new width/height = 1200/680
+- 17:38:30.234 DEBUG: GetBrowserWindow(): not found, hwnd = 852706
+- 17:38:30.234 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:38:30.234 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:38:30.234 DEBUG: StoreBrowserWindow(): hwnd = 852706
+- 17:38:30.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=EE61358451C8DE35238EE59C533132EA --mojo-platform-channel-handle=1816 /prefetch:2
+- 17:38:30.312 DEBUG: ClientHandler::OnAfterCreated()
+- 17:38:30.312 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:38:30.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:38:30.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=29AA9BA8873651CC20B0BC0F830D582B --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=29AA9BA8873651CC20B0BC0F830D582B --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+[1218/173830.304:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:38:30.062 DEBUG: OnBrowserCreated()
+- 17:38:31.672 INFO: GET 200 /style.css
+- 17:38:31.687 INFO: GET 200 /
+- 17:38:31.687 INFO: GET 200 /banner/banner2.jpg
+- 17:38:31.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54288/
+- 17:38:56.515 DEBUG: WM_DESTROY
+- 17:38:56.515 DEBUG: RemoveBrowserWindow(): hwnd = 852706
+- 17:38:56.531 INFO: Stopping Mongoose web server
+- 17:38:56.531 DEBUG: Mongoose webserver stopped immediately
+- 17:38:56.531 DEBUG: OnBeforeClose() hwnd=918152
+- 17:38:56.531 DEBUG: RemoveBrowserWindow(): hwnd = 918152
+- 17:38:56.531 DEBUG: GetBrowserWindow(): not found, hwnd = 918152
+- 17:38:56.531 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:38:56.547 DEBUG: Calling CefQuitMessageLoop()
+- 17:38:56.625 INFO: Ended application
+- 17:38:56.625 INFO: --------------------------------------------------------
+- 17:39:04.125 INFO: --------------------------------------------------------
+- 17:39:04.125 INFO: Started application
+- 17:39:04.125 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:39:04.125 INFO: Log level = DEBUG4
+- 17:39:04.125 INFO: Starting Mongoose 3.9c web server
+- 17:39:04.125 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:39:04.125 INFO: Index files: index.html,index.php
+- 17:39:04.125 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:39:04.125 INFO: CGI pattern: **.php$
+- 17:39:04.125 INFO: Hide files patterns: 
+- 17:39:04.125 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:39:04.140 INFO: Web server url: http://127.0.0.1:54293/
+- 17:39:04.140 INFO: remote_debugging_port = 58319
+- 17:39:04.140 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=58319
+- 17:39:04.219 DEBUG: App::OnContextInitialized()
+- 17:39:04.219 DEBUG: Window max width/height = 1286/680
+- 17:39:04.234 DEBUG: Window max size exceeded, new width/height = 1200/680
+- 17:39:04.250 DEBUG: GetBrowserWindow(): not found, hwnd = 11797062
+- 17:39:04.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:39:04.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:39:04.250 DEBUG: StoreBrowserWindow(): hwnd = 11797062
+- 17:39:04.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=49933D520A5F37BD8491D5FD9DACF97E --mojo-platform-channel-handle=1800 /prefetch:2
+- 17:39:04.312 DEBUG: ClientHandler::OnAfterCreated()
+- 17:39:04.312 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:39:04.344 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:39:04.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4400121227B1FE9D513C17776B15D11A --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4400121227B1FE9D513C17776B15D11A --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[1218/173904.424:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:39:04.062 DEBUG: OnBrowserCreated()
+- 17:39:05.687 INFO: GET 200 /style.css
+- 17:39:05.703 INFO: GET 200 /
+- 17:39:05.703 INFO: GET 200 /banner/banner2.jpg
+- 17:39:05.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54293/
+- 17:39:36.110 INFO: --------------------------------------------------------
+- 17:39:36.110 INFO: Started application
+- 17:39:36.110 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:39:36.110 INFO: Log level = DEBUG4
+- 17:39:36.110 INFO: Starting Mongoose 3.9c web server
+- 17:39:36.110 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:39:36.110 INFO: Index files: index.html,index.php
+- 17:39:36.125 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:39:36.125 INFO: CGI pattern: **.php$
+- 17:39:36.125 INFO: Hide files patterns: 
+- 17:39:36.125 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:39:36.141 INFO: Web server url: http://127.0.0.1:54305/
+- 17:39:36.141 INFO: remote_debugging_port = 52878
+- 17:39:36.141 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=52878
+- 17:39:36.219 DEBUG: App::OnContextInitialized()
+- 17:39:36.219 DEBUG: Window max width/height = 1286/680
+- 17:39:36.219 DEBUG: GetBrowserWindow(): not found, hwnd = 2359652
+- 17:39:36.235 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:39:36.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:39:36.250 DEBUG: StoreBrowserWindow(): hwnd = 2359652
+- 17:39:37.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=FB6E3430709D26CB0F28D0ABABEF434D --mojo-platform-channel-handle=1800 /prefetch:2
+- 17:39:37.313 DEBUG: ClientHandler::OnAfterCreated()
+- 17:39:37.313 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:39:37.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:39:37.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1033BE071781E938561FAF99171EE619 --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1033BE071781E938561FAF99171EE619 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[1218/173937.107:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:39:37.063 DEBUG: OnBrowserCreated()
+[1218/173937.164:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1218/173937.165:ERROR:cache_util.cc(134)] Unable to move cache folder D:\Projek\Solidsport-KataCounter\webcache\GPUCache to D:\Projek\Solidsport-KataCounter\webcache\old_GPUCache_000
+[1218/173937.165:ERROR:disk_cache.cc(132)] Unable to create cache
+[1218/173937.165:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[1218/173937.166:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1218/173937.166:ERROR:cache_util.cc(134)] Unable to move cache folder D:\Projek\Solidsport-KataCounter\webcache\Cache to D:\Projek\Solidsport-KataCounter\webcache\old_Cache_000
+[1218/173937.167:ERROR:disk_cache.cc(132)] Unable to create cache
+- 17:39:38.610 INFO: GET 200 /style.css
+- 17:39:38.610 INFO: GET 200 /
+- 17:39:38.610 INFO: GET 200 /banner/banner2.jpg
+- 17:39:38.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54305/
+- 17:39:41.797 DEBUG: WM_DESTROY
+- 17:39:41.797 DEBUG: RemoveBrowserWindow(): hwnd = 2359652
+- 17:39:41.813 INFO: Stopping Mongoose web server
+- 17:39:41.813 DEBUG: Mongoose webserver stopped immediately
+- 17:39:41.828 DEBUG: OnBeforeClose() hwnd=918166
+- 17:39:41.828 DEBUG: RemoveBrowserWindow(): hwnd = 918166
+- 17:39:41.828 DEBUG: GetBrowserWindow(): not found, hwnd = 918166
+- 17:39:41.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:39:41.828 DEBUG: Calling CefQuitMessageLoop()
+- 17:39:41.891 INFO: Ended application
+- 17:39:41.891 INFO: --------------------------------------------------------
+- 17:41:00.000 INFO: --------------------------------------------------------
+- 17:41:00.000 INFO: Started application
+- 17:41:00.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:41:00.000 INFO: Log level = DEBUG4
+- 17:41:00.000 INFO: Starting Mongoose 3.9c web server
+- 17:41:00.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:41:00.000 INFO: Index files: index.html,index.php
+- 17:41:00.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:41:00.000 INFO: CGI pattern: **.php$
+- 17:41:00.000 INFO: Hide files patterns: 
+- 17:41:00.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:41:00.000 INFO: Web server url: http://127.0.0.1:54321/
+- 17:41:00.000 INFO: remote_debugging_port = 64251
+- 17:41:00.000 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=64251
+- 17:41:00.078 DEBUG: App::OnContextInitialized()
+- 17:41:00.078 DEBUG: Window max width/height = 1286/680
+- 17:41:00.078 DEBUG: GetBrowserWindow(): not found, hwnd = 787748
+- 17:41:00.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:41:00.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:41:00.078 DEBUG: StoreBrowserWindow(): hwnd = 787748
+- 17:41:00.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=427B9DF8E2518E7485982EE558214DC9 --mojo-platform-channel-handle=1776 /prefetch:2
+- 17:41:00.156 DEBUG: ClientHandler::OnAfterCreated()
+- 17:41:00.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:41:00.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:41:00.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=700B076E4D7380EF44C460E5071376AC --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=700B076E4D7380EF44C460E5071376AC --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+[1218/174100.862:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:41:00.063 DEBUG: OnBrowserCreated()
+- 17:41:00.063 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[1218/174100.919:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1218/174100.919:ERROR:cache_util.cc(134)] Unable to move cache folder D:\Projek\Solidsport-KataCounter\webcache\GPUCache to D:\Projek\Solidsport-KataCounter\webcache\old_GPUCache_000
+[1218/174100.919:ERROR:disk_cache.cc(132)] Unable to create cache
+[1218/174100.919:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[1218/174100.920:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1218/174100.920:ERROR:cache_util.cc(134)] Unable to move cache folder D:\Projek\Solidsport-KataCounter\webcache\Cache to D:\Projek\Solidsport-KataCounter\webcache\old_Cache_000
+[1218/174100.920:ERROR:disk_cache.cc(132)] Unable to create cache
+- 17:41:02.656 INFO: GET 200 /style.css
+- 17:41:02.672 INFO: GET 200 /
+- 17:41:02.672 INFO: GET 200 /banner/banner2.jpg
+- 17:41:02.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54321/
+- 17:41:15.218 DEBUG: WM_DESTROY
+- 17:41:15.218 DEBUG: RemoveBrowserWindow(): hwnd = 787748
+- 17:41:15.218 INFO: Stopping Mongoose web server
+- 17:41:15.218 DEBUG: Mongoose webserver stopped immediately
+- 17:41:15.218 DEBUG: OnBeforeClose() hwnd=852176
+- 17:41:15.218 DEBUG: RemoveBrowserWindow(): hwnd = 852176
+- 17:41:15.218 DEBUG: GetBrowserWindow(): not found, hwnd = 852176
+- 17:41:15.218 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:41:15.218 DEBUG: Calling CefQuitMessageLoop()
+- 17:41:15.281 INFO: Ended application
+- 17:41:15.281 INFO: --------------------------------------------------------
+- 17:41:16.953 DEBUG: WM_DESTROY
+- 17:41:16.953 DEBUG: RemoveBrowserWindow(): hwnd = 11797062
+- 17:41:16.953 INFO: Stopping Mongoose web server
+- 17:41:16.953 DEBUG: Mongoose webserver stopped immediately
+- 17:41:16.953 DEBUG: OnBeforeClose() hwnd=918874
+- 17:41:16.953 DEBUG: RemoveBrowserWindow(): hwnd = 918874
+- 17:41:16.953 DEBUG: GetBrowserWindow(): not found, hwnd = 918874
+- 17:41:16.953 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:41:16.969 DEBUG: Calling CefQuitMessageLoop()
+- 17:41:17.594 DEBUG: OnBrowserDestroyed()
+- 17:41:17.000 INFO: Ended application
+- 17:41:17.000 INFO: --------------------------------------------------------
+- 17:42:48.000 INFO: --------------------------------------------------------
+- 17:42:48.000 INFO: Started application
+- 17:42:48.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:42:48.000 INFO: Log level = DEBUG4
+- 17:42:48.000 INFO: Starting Mongoose 3.9c web server
+- 17:42:48.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:42:48.000 INFO: Index files: index.html,index.php
+- 17:42:48.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:42:48.000 INFO: CGI pattern: **.php$
+- 17:42:48.000 INFO: Hide files patterns: 
+- 17:42:48.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:42:48.016 INFO: Web server url: http://127.0.0.1:54335/
+- 17:42:48.016 INFO: remote_debugging_port = 50975
+- 17:42:48.016 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=50975
+- 17:42:48.078 DEBUG: App::OnContextInitialized()
+- 17:42:48.078 DEBUG: Window max width/height = 1286/680
+- 17:42:48.094 DEBUG: GetBrowserWindow(): not found, hwnd = 655610
+- 17:42:48.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:42:48.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:42:48.094 DEBUG: StoreBrowserWindow(): hwnd = 655610
+- 17:42:48.156 DEBUG: ClientHandler::OnAfterCreated()
+- 17:42:48.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:42:48.016 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=7FF2017EF1DCD60FB82DBB8F7BA7C27D --mojo-platform-channel-handle=1776 /prefetch:2
+- 17:42:48.188 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:42:48.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=98FDFAB940E372C9F1891754A2D26B9E --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=98FDFAB940E372C9F1891754A2D26B9E --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+[1218/174248.493:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:42:48.047 DEBUG: OnBrowserCreated()
+- 17:42:48.063 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 17:42:49.719 INFO: GET 200 /style.css
+- 17:42:49.734 INFO: GET 200 /
+- 17:42:49.734 INFO: GET 200 /banner/banner2.jpg
+- 17:42:50.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54335/
+- 17:44:42.516 DEBUG: WM_DESTROY
+- 17:44:42.516 DEBUG: RemoveBrowserWindow(): hwnd = 655610
+- 17:44:42.516 INFO: Stopping Mongoose web server
+- 17:44:42.516 DEBUG: Mongoose webserver stopped immediately
+- 17:44:42.516 DEBUG: OnBeforeClose() hwnd=526038
+- 17:44:42.516 DEBUG: RemoveBrowserWindow(): hwnd = 526038
+- 17:44:42.516 DEBUG: GetBrowserWindow(): not found, hwnd = 526038
+- 17:44:42.516 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:44:42.516 DEBUG: Calling CefQuitMessageLoop()
+- 17:44:42.641 INFO: Ended application
+- 17:44:42.641 INFO: --------------------------------------------------------
+- 17:48:02.000 INFO: --------------------------------------------------------
+- 17:48:02.000 INFO: Started application
+- 17:48:02.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:48:02.000 INFO: Log level = DEBUG4
+- 17:48:02.000 INFO: Starting Mongoose 3.9c web server
+- 17:48:02.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:48:02.000 INFO: Index files: index.html,index.php
+- 17:48:02.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:48:02.000 INFO: CGI pattern: **.php$
+- 17:48:02.000 INFO: Hide files patterns: 
+- 17:48:02.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:48:02.015 INFO: Web server url: http://127.0.0.1:54442/
+- 17:48:02.015 INFO: remote_debugging_port = 56365
+- 17:48:02.015 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=56365
+- 17:48:02.078 DEBUG: App::OnContextInitialized()
+- 17:48:02.078 DEBUG: Window max width/height = 1286/680
+- 17:48:02.078 DEBUG: GetBrowserWindow(): not found, hwnd = 788172
+- 17:48:02.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:48:02.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:48:02.078 DEBUG: StoreBrowserWindow(): hwnd = 788172
+- 17:48:02.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=64244FED5B190C7B59D2C4776BC247A4 --mojo-platform-channel-handle=1776 /prefetch:2
+- 17:48:02.172 DEBUG: ClientHandler::OnAfterCreated()
+- 17:48:02.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:48:02.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:48:02.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=53003BE5A9E320FFEAAB29E9670FA622 --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=53003BE5A9E320FFEAAB29E9670FA622 --renderer-client-id=3 --mojo-platform-channel-handle=2308 /prefetch:1
+[1218/174802.316:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:48:02.062 DEBUG: OnBrowserCreated()
+- 17:48:02.062 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 17:48:03.640 INFO: GET 200 /style.css
+- 17:48:03.640 INFO: GET 200 /
+- 17:48:03.640 INFO: GET 200 /banner/banner2.jpg
+- 17:48:03.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54442/
+- 17:48:08.672 DEBUG: WM_DESTROY
+- 17:48:08.672 DEBUG: RemoveBrowserWindow(): hwnd = 788172
+- 17:48:08.672 INFO: Stopping Mongoose web server
+- 17:48:08.672 DEBUG: Mongoose webserver stopped immediately
+- 17:48:08.687 DEBUG: OnBeforeClose() hwnd=984410
+- 17:48:08.687 DEBUG: RemoveBrowserWindow(): hwnd = 984410
+- 17:48:08.687 DEBUG: GetBrowserWindow(): not found, hwnd = 984410
+- 17:48:08.687 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:48:08.687 DEBUG: Calling CefQuitMessageLoop()
+- 17:48:08.765 INFO: Ended application
+- 17:48:08.765 INFO: --------------------------------------------------------
+- 17:49:10.000 INFO: --------------------------------------------------------
+- 17:49:10.000 INFO: Started application
+- 17:49:10.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 17:49:10.000 INFO: Log level = DEBUG4
+- 17:49:10.000 INFO: Starting Mongoose 3.9c web server
+- 17:49:10.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 17:49:10.000 INFO: Index files: index.html,index.php
+- 17:49:10.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 17:49:10.000 INFO: CGI pattern: **.php$
+- 17:49:10.000 INFO: Hide files patterns: 
+- 17:49:10.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:49:10.000 INFO: Web server url: http://127.0.0.1:54460/
+- 17:49:10.000 INFO: remote_debugging_port = 62901
+- 17:49:10.000 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=62901
+- 17:49:10.078 DEBUG: App::OnContextInitialized()
+- 17:49:10.078 DEBUG: Window max width/height = 1286/680
+- 17:49:10.078 DEBUG: GetBrowserWindow(): not found, hwnd = 11928134
+- 17:49:10.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:49:10.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:49:10.078 DEBUG: StoreBrowserWindow(): hwnd = 11928134
+- 17:49:10.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=622676963842F46A5145516EA3D7A6E7 --mojo-platform-channel-handle=1784 /prefetch:2
+- 17:49:10.172 DEBUG: ClientHandler::OnAfterCreated()
+- 17:49:10.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:49:10.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:49:10.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8EC7DE279DF2C00C19AEF2DC2E5D618A --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8EC7DE279DF2C00C19AEF2DC2E5D618A --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+[1218/174910.905:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:49:10.047 DEBUG: OnBrowserCreated()
+- 17:49:10.063 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 17:49:12.641 INFO: GET 200 /
+- 17:49:12.641 INFO: GET 200 /style.css
+- 17:49:12.656 INFO: GET 200 /banner/banner2.jpg
+- 17:49:12.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54460/
+- 17:49:19.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54460/
+- 17:49:19.328 INFO: GET 304 /style.css
+- 17:49:19.328 INFO: POST 200 /
+- 17:49:19.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54460/
+- 17:49:22.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54460/
+- 17:49:22.016 INFO: GET 304 /style.css
+- 17:49:22.016 INFO: POST 200 /
+- 17:49:22.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54460/
+- 17:49:34.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54460/
+- 17:49:34.797 INFO: GET 304 /style.css
+- 17:49:34.812 INFO: POST 200 /
+- 17:49:34.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54460/
+- 17:49:36.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54460/
+- 17:49:36.250 INFO: GET 304 /style.css
+- 17:49:36.250 INFO: POST 200 /
+- 17:49:36.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54460/
+- 17:49:41.000 DEBUG: WM_DESTROY
+- 17:49:41.000 DEBUG: RemoveBrowserWindow(): hwnd = 11928134
+- 17:49:41.000 INFO: Stopping Mongoose web server
+- 17:49:41.000 DEBUG: Mongoose webserver stopped immediately
+- 17:49:41.016 DEBUG: OnBeforeClose() hwnd=984216
+- 17:49:41.016 DEBUG: RemoveBrowserWindow(): hwnd = 984216
+- 17:49:41.016 DEBUG: GetBrowserWindow(): not found, hwnd = 984216
+- 17:49:41.016 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:49:41.016 DEBUG: Calling CefQuitMessageLoop()
+- 17:49:41.109 INFO: Ended application
+- 17:49:41.109 INFO: --------------------------------------------------------
+- 18:01:01.000 INFO: --------------------------------------------------------
+- 18:01:01.000 INFO: Started application
+- 18:01:01.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 18:01:01.000 INFO: Log level = DEBUG4
+- 18:01:01.000 INFO: Starting Mongoose 3.9c web server
+- 18:01:01.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 18:01:01.000 INFO: Index files: index.html,index.php
+- 18:01:01.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 18:01:01.000 INFO: CGI pattern: **.php$
+- 18:01:01.000 INFO: Hide files patterns: 
+- 18:01:01.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:01:01.016 INFO: Web server url: http://127.0.0.1:54668/
+- 18:01:01.016 INFO: remote_debugging_port = 62280
+- 18:01:01.016 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=62280
+- 18:01:01.078 DEBUG: App::OnContextInitialized()
+- 18:01:01.078 DEBUG: Window max width/height = 1286/680
+- 18:01:01.094 DEBUG: GetBrowserWindow(): not found, hwnd = 852658
+- 18:01:01.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:01:01.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:01:01.094 DEBUG: StoreBrowserWindow(): hwnd = 852658
+- 18:01:01.015 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=48ED92A2620754FAE1F0591F1059E89A --mojo-platform-channel-handle=1760 /prefetch:2
+- 18:01:01.172 DEBUG: ClientHandler::OnAfterCreated()
+- 18:01:01.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:01:01.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:01:01.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F5AAB8269A62E6EFD9307F846B871B3C --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F5AAB8269A62E6EFD9307F846B871B3C --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+[1218/180101.559:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:01:01.047 DEBUG: OnBrowserCreated()
+- 18:01:01.063 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 18:01:02.703 INFO: GET 200 /style.css
+- 18:01:02.719 INFO: GET 200 /
+- 18:01:02.719 INFO: GET 200 /banner/banner2.jpg
+- 18:01:03.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54668/
+- 18:01:16.141 DEBUG: WM_DESTROY
+- 18:01:16.141 DEBUG: RemoveBrowserWindow(): hwnd = 852658
+- 18:01:16.141 INFO: Stopping Mongoose web server
+- 18:01:16.141 DEBUG: Mongoose webserver stopped immediately
+- 18:01:16.156 DEBUG: OnBeforeClose() hwnd=1509068
+- 18:01:16.156 DEBUG: RemoveBrowserWindow(): hwnd = 1509068
+- 18:01:16.156 DEBUG: GetBrowserWindow(): not found, hwnd = 1509068
+- 18:01:16.156 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:01:16.156 DEBUG: Calling CefQuitMessageLoop()
+- 18:01:16.250 INFO: Ended application
+- 18:01:16.250 INFO: --------------------------------------------------------
+- 18:02:59.016 INFO: --------------------------------------------------------
+- 18:02:59.016 INFO: Started application
+- 18:02:59.016 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 18:02:59.016 INFO: Log level = DEBUG4
+- 18:02:59.016 INFO: Starting Mongoose 3.9c web server
+- 18:02:59.016 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 18:02:59.016 INFO: Index files: index.html,index.php
+- 18:02:59.016 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 18:02:59.016 INFO: CGI pattern: **.php$
+- 18:02:59.016 INFO: Hide files patterns: 
+- 18:02:59.016 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:02:59.031 INFO: Web server url: http://127.0.0.1:54701/
+- 18:02:59.031 INFO: remote_debugging_port = 56036
+- 18:02:59.031 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=56036
+- 18:02:59.125 DEBUG: App::OnContextInitialized()
+- 18:02:59.125 DEBUG: Window max width/height = 1286/680
+- 18:02:59.125 DEBUG: Window max size exceeded, new width/height = 1286/680
+- 18:02:59.125 DEBUG: GetBrowserWindow(): not found, hwnd = 1247026
+- 18:02:59.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:02:59.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:02:59.125 DEBUG: StoreBrowserWindow(): hwnd = 1247026
+- 18:02:59.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=653698514A94214BF636BA6D411B40D7 --mojo-platform-channel-handle=1760 /prefetch:2
+- 18:02:59.219 DEBUG: ClientHandler::OnAfterCreated()
+- 18:02:59.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:02:59.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:02:59.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E5054B1BEE878A0EEF5C61200AA9EFEF --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E5054B1BEE878A0EEF5C61200AA9EFEF --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+[1218/180259.334:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:02:59.047 DEBUG: OnBrowserCreated()
+- 18:02:59.062 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 18:03:00.688 INFO: GET 200 /style.css
+- 18:03:00.688 INFO: GET 200 /
+- 18:03:00.688 INFO: GET 200 /banner/banner2.jpg
+- 18:03:00.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54701/
+- 18:03:21.750 DEBUG: WM_DESTROY
+- 18:03:21.750 DEBUG: RemoveBrowserWindow(): hwnd = 1247026
+- 18:03:21.750 INFO: Stopping Mongoose web server
+- 18:03:21.750 DEBUG: Mongoose webserver stopped immediately
+- 18:03:21.766 DEBUG: OnBeforeClose() hwnd=13763142
+- 18:03:21.766 DEBUG: RemoveBrowserWindow(): hwnd = 13763142
+- 18:03:21.766 DEBUG: GetBrowserWindow(): not found, hwnd = 13763142
+- 18:03:21.766 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:03:21.766 DEBUG: Calling CefQuitMessageLoop()
+- 18:03:21.860 INFO: Ended application
+- 18:03:21.860 INFO: --------------------------------------------------------
+- 18:04:53.016 INFO: --------------------------------------------------------
+- 18:04:53.016 INFO: Started application
+- 18:04:53.016 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 18:04:53.016 INFO: Log level = DEBUG4
+- 18:04:53.016 INFO: Starting Mongoose 3.9c web server
+- 18:04:53.016 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 18:04:53.016 INFO: Index files: index.html,index.php
+- 18:04:53.016 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 18:04:53.016 INFO: CGI pattern: **.php$
+- 18:04:53.016 INFO: Hide files patterns: 
+- 18:04:53.016 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:04:53.016 INFO: Web server url: http://127.0.0.1:54732/
+- 18:04:53.016 INFO: remote_debugging_port = 63968
+- 18:04:53.016 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=63968
+- 18:04:53.094 DEBUG: App::OnContextInitialized()
+- 18:04:53.094 DEBUG: Window max width/height = 1286/680
+- 18:04:53.094 DEBUG: GetBrowserWindow(): not found, hwnd = 984894
+- 18:04:53.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:04:53.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:04:53.094 DEBUG: StoreBrowserWindow(): hwnd = 984894
+- 18:04:54.172 DEBUG: ClientHandler::OnAfterCreated()
+- 18:04:54.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:04:54.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=BD9DF8F8A20B157F8966F4DAD9099B41 --mojo-platform-channel-handle=1776 /prefetch:2
+- 18:04:54.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:04:54.016 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D7E79CA0AF5E0CE6D63A19CB2E3C3962 --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D7E79CA0AF5E0CE6D63A19CB2E3C3962 --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+[1218/180454.142:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:04:54.078 DEBUG: OnBrowserCreated()
+- 18:04:54.094 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 18:04:55.657 INFO: GET 200 /style.css
+- 18:04:55.657 INFO: GET 200 /
+- 18:04:55.657 INFO: GET 200 /banner/banner2.jpg
+- 18:04:55.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54732/
+- 18:04:57.688 DEBUG: WM_DESTROY
+- 18:04:57.688 DEBUG: RemoveBrowserWindow(): hwnd = 984894
+- 18:04:57.688 INFO: Stopping Mongoose web server
+- 18:04:57.688 DEBUG: Mongoose webserver stopped immediately
+- 18:04:57.703 DEBUG: OnBeforeClose() hwnd=1705676
+- 18:04:57.703 DEBUG: RemoveBrowserWindow(): hwnd = 1705676
+- 18:04:57.703 DEBUG: GetBrowserWindow(): not found, hwnd = 1705676
+- 18:04:57.703 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:04:57.703 DEBUG: Calling CefQuitMessageLoop()
+- 18:04:57.782 INFO: Ended application
+- 18:04:57.782 INFO: --------------------------------------------------------
+- 18:05:12.015 INFO: --------------------------------------------------------
+- 18:05:12.015 INFO: Started application
+- 18:05:12.015 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 18:05:12.015 INFO: Log level = DEBUG4
+- 18:05:12.015 INFO: Starting Mongoose 3.9c web server
+- 18:05:12.015 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 18:05:12.015 INFO: Index files: index.html,index.php
+- 18:05:12.015 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 18:05:12.015 INFO: CGI pattern: **.php$
+- 18:05:12.015 INFO: Hide files patterns: 
+- 18:05:12.015 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:05:12.015 INFO: Web server url: http://127.0.0.1:54736/
+- 18:05:12.015 INFO: remote_debugging_port = 54423
+- 18:05:12.015 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=54423
+- 18:05:12.093 DEBUG: App::OnContextInitialized()
+- 18:05:12.093 DEBUG: Window max width/height = 1286/680
+- 18:05:12.093 DEBUG: GetBrowserWindow(): not found, hwnd = 329558
+- 18:05:12.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:05:12.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:05:12.093 DEBUG: StoreBrowserWindow(): hwnd = 329558
+- 18:05:12.172 DEBUG: ClientHandler::OnAfterCreated()
+- 18:05:12.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:05:12.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=11E9DF5690312F785053F7BA3C65E68F --mojo-platform-channel-handle=1776 /prefetch:2
+- 18:05:12.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:05:12.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6614D5D9490F8248E53FDDE8ED67989B --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6614D5D9490F8248E53FDDE8ED67989B --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+[1218/180512.506:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:05:12.062 DEBUG: OnBrowserCreated()
+- 18:05:13.609 INFO: GET 200 /style.css
+- 18:05:13.609 INFO: GET 200 /
+- 18:05:13.609 INFO: GET 200 /banner/banner2.jpg
+- 18:05:13.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54736/
+- 18:05:31.000 DEBUG: WM_DESTROY
+- 18:05:31.000 DEBUG: RemoveBrowserWindow(): hwnd = 329558
+- 18:05:31.000 INFO: Stopping Mongoose web server
+- 18:05:31.000 DEBUG: Mongoose webserver stopped immediately
+- 18:05:31.015 DEBUG: OnBeforeClose() hwnd=1771212
+- 18:05:31.015 DEBUG: RemoveBrowserWindow(): hwnd = 1771212
+- 18:05:31.015 DEBUG: GetBrowserWindow(): not found, hwnd = 1771212
+- 18:05:31.015 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:05:31.015 DEBUG: Calling CefQuitMessageLoop()
+- 18:05:31.062 INFO: Ended application
+- 18:05:31.062 INFO: --------------------------------------------------------
+- 18:07:28.000 INFO: --------------------------------------------------------
+- 18:07:28.000 INFO: Started application
+- 18:07:28.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 18:07:28.000 INFO: Log level = DEBUG4
+- 18:07:28.000 INFO: Starting Mongoose 3.9c web server
+- 18:07:28.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 18:07:28.000 INFO: Index files: index.html,index.php
+- 18:07:28.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 18:07:28.000 INFO: CGI pattern: **.php$
+- 18:07:28.000 INFO: Hide files patterns: 
+- 18:07:28.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:07:28.016 INFO: Web server url: http://127.0.0.1:54760/
+- 18:07:28.016 INFO: remote_debugging_port = 62094
+- 18:07:28.016 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=62094
+- 18:07:28.109 DEBUG: App::OnContextInitialized()
+- 18:07:28.109 DEBUG: Window max width/height = 1286/680
+- 18:07:28.109 DEBUG: GetBrowserWindow(): not found, hwnd = 328930
+- 18:07:28.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:07:28.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:07:28.109 DEBUG: StoreBrowserWindow(): hwnd = 328930
+- 18:07:28.015 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=C0224B4F411D517566FDFACEDD986053 --mojo-platform-channel-handle=1776 /prefetch:2
+- 18:07:29.203 DEBUG: ClientHandler::OnAfterCreated()
+- 18:07:29.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:07:29.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:07:29.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=51265707D836D1F9BDFD264181B7AF84 --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=51265707D836D1F9BDFD264181B7AF84 --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+[1218/180729.138:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:07:29.063 DEBUG: OnBrowserCreated()
+- 18:07:30.719 INFO: GET 200 /style.css
+- 18:07:30.719 INFO: GET 200 /
+- 18:07:30.734 INFO: GET 200 /banner/banner2.jpg
+- 18:07:30.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54760/
+- 18:07:35.844 DEBUG: WM_DESTROY
+- 18:07:35.844 DEBUG: RemoveBrowserWindow(): hwnd = 328930
+- 18:07:35.844 INFO: Stopping Mongoose web server
+- 18:07:35.844 DEBUG: Mongoose webserver stopped immediately
+- 18:07:35.844 DEBUG: OnBeforeClose() hwnd=852712
+- 18:07:35.844 DEBUG: RemoveBrowserWindow(): hwnd = 852712
+- 18:07:35.844 DEBUG: GetBrowserWindow(): not found, hwnd = 852712
+- 18:07:35.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:07:35.844 DEBUG: Calling CefQuitMessageLoop()
+- 18:07:35.906 INFO: Ended application
+- 18:07:35.906 INFO: --------------------------------------------------------
+- 18:31:57.000 INFO: --------------------------------------------------------
+- 18:31:57.000 INFO: Started application
+- 18:31:57.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 18:31:57.000 INFO: Log level = DEBUG4
+- 18:31:57.000 INFO: Starting Mongoose 3.9c web server
+- 18:31:57.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 18:31:57.000 INFO: Index files: index.html,index.php
+- 18:31:57.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 18:31:57.000 INFO: CGI pattern: **.php$
+- 18:31:57.000 INFO: Hide files patterns: 
+- 18:31:57.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:31:57.015 INFO: Web server url: http://127.0.0.1:54944/
+- 18:31:57.015 INFO: remote_debugging_port = 52832
+- 18:31:57.015 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=52832
+- 18:31:57.062 DEBUG: App::OnContextInitialized()
+- 18:31:57.062 DEBUG: Window max width/height = 1286/680
+- 18:31:57.062 DEBUG: GetBrowserWindow(): not found, hwnd = 722760
+- 18:31:57.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:31:57.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:31:57.062 DEBUG: StoreBrowserWindow(): hwnd = 722760
+- 18:31:57.156 DEBUG: ClientHandler::OnAfterCreated()
+- 18:31:57.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:31:57.171 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:31:57.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=B5152124F13179DD48D1D6D97C2E768A --mojo-platform-channel-handle=1776 /prefetch:2
+- 18:31:57.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E7B9E0202125190FA3E6C8F09D3B75FC --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E7B9E0202125190FA3E6C8F09D3B75FC --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+[1218/183157.809:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:31:57.047 DEBUG: OnBrowserCreated()
+- 18:31:59.593 INFO: GET 200 /style.css
+- 18:31:59.593 INFO: GET 200 /
+- 18:31:59.593 INFO: GET 200 /banner/banner2.jpg
+- 18:31:59.422 DEBUG: OnContextCreated()
+- 18:31:59.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54944/
+- 18:32:05.421 DEBUG: WM_DESTROY
+- 18:32:05.421 DEBUG: RemoveBrowserWindow(): hwnd = 722760
+- 18:32:05.421 INFO: Stopping Mongoose web server
+- 18:32:05.421 DEBUG: Mongoose webserver stopped immediately
+- 18:32:05.421 DEBUG: OnBeforeClose() hwnd=1967820
+- 18:32:05.421 DEBUG: RemoveBrowserWindow(): hwnd = 1967820
+- 18:32:05.421 DEBUG: GetBrowserWindow(): not found, hwnd = 1967820
+- 18:32:05.421 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:32:05.421 DEBUG: Calling CefQuitMessageLoop()
+- 18:32:06.500 INFO: Ended application
+- 18:32:06.500 INFO: --------------------------------------------------------
+- 18:33:14.000 INFO: --------------------------------------------------------
+- 18:33:14.000 INFO: Started application
+- 18:33:14.000 INFO: Logging to: D:\Projek\Solidsport-KataCounter\debug.log
+- 18:33:14.000 INFO: Log level = DEBUG4
+- 18:33:14.000 INFO: Starting Mongoose 3.9c web server
+- 18:33:14.000 INFO: WWW directory: D:\Projek\Solidsport-KataCounter\www
+- 18:33:14.000 INFO: Index files: index.html,index.php
+- 18:33:14.000 INFO: CGI interpreter: D:\Projek\Solidsport-KataCounter\php\php-cgi.exe
+- 18:33:14.000 INFO: CGI pattern: **.php$
+- 18:33:14.000 INFO: Hide files patterns: 
+- 18:33:14.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:33:14.016 INFO: Web server url: http://127.0.0.1:54963/
+- 18:33:14.016 INFO: remote_debugging_port = 65093
+- 18:33:14.016 DEBUG: Command line string for the browser process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --remote-debugging-port=65093
+- 18:33:14.078 DEBUG: App::OnContextInitialized()
+- 18:33:14.078 DEBUG: Window max width/height = 1286/680
+- 18:33:14.078 DEBUG: GetBrowserWindow(): not found, hwnd = 722794
+- 18:33:14.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:33:14.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:33:14.078 DEBUG: StoreBrowserWindow(): hwnd = 722794
+- 18:33:14.203 DEBUG: ClientHandler::OnAfterCreated()
+- 18:33:14.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:33:14.015 DEBUG: Command line string for the gpu-process process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --service-request-channel-token=85ACC409D26FF67E786E024DFBEBDA0E --mojo-platform-channel-handle=1776 /prefetch:2
+- 18:33:14.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:33:15.000 DEBUG: Command line string for the renderer process: "D:\Projek\Solidsport-KataCounter\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7950A5B5F0CB47EA7B9D2A5610FFB3B1 --lang=en-US --lang=en-US --log-file="D:\Projek\Solidsport-KataCounter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7950A5B5F0CB47EA7B9D2A5610FFB3B1 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+[1218/183315.042:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:33:15.062 DEBUG: OnBrowserCreated()
+- 18:33:15.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 18:33:16.719 INFO: GET 200 /style.css
+- 18:33:16.719 INFO: GET 200 /
+- 18:33:16.735 INFO: GET 200 /banner/banner2.jpg
+- 18:33:16.546 DEBUG: OnContextCreated()
+- 18:33:16.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54963/
+- 18:33:54.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54963/
+- 18:33:54.687 DEBUG: OnContextCreated()
+- 18:33:54.969 INFO: POST 200 /
+- 18:33:54.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54963/
+- 18:34:11.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54963/
+- 18:34:11.750 DEBUG: OnContextCreated()
+- 18:34:11.032 INFO: POST 200 /
+- 18:34:11.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54963/
+- 18:34:25.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54963/
+- 18:34:25.281 DEBUG: OnContextCreated()
+- 18:34:25.563 INFO: POST 200 /
+- 18:34:25.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54963/
+- 18:35:11.657 DEBUG: WM_DESTROY
+- 18:35:11.657 DEBUG: RemoveBrowserWindow(): hwnd = 722794
+- 18:35:11.657 INFO: Stopping Mongoose web server
+- 18:35:11.657 DEBUG: Mongoose webserver stopped immediately
+- 18:35:11.672 DEBUG: OnBeforeClose() hwnd=1640270
+- 18:35:11.672 DEBUG: RemoveBrowserWindow(): hwnd = 1640270
+- 18:35:11.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1640270
+- 18:35:11.672 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:35:11.672 DEBUG: Calling CefQuitMessageLoop()
+- 18:35:11.421 DEBUG: OnBrowserDestroyed()
+- 18:35:11.766 INFO: Ended application
+- 18:35:11.766 INFO: --------------------------------------------------------
+- 18:37:25.000 INFO: --------------------------------------------------------
+- 18:37:25.000 INFO: Started application
+- 18:37:25.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 18:37:25.000 INFO: Log level = DEBUG4
+- 18:37:25.000 INFO: Starting Mongoose 3.9c web server
+- 18:37:25.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 18:37:25.000 INFO: Index files: index.html,index.php
+- 18:37:25.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 18:37:25.000 INFO: CGI pattern: **.php$
+- 18:37:25.000 INFO: Hide files patterns: 
+- 18:37:25.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:37:25.016 INFO: Web server url: http://127.0.0.1:55011/
+- 18:37:25.016 INFO: remote_debugging_port = 61769
+- 18:37:25.016 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=61769
+- 18:37:25.078 DEBUG: App::OnContextInitialized()
+- 18:37:25.078 DEBUG: Window max width/height = 1286/680
+- 18:37:25.078 DEBUG: GetBrowserWindow(): not found, hwnd = 327758
+- 18:37:25.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:37:25.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:37:25.078 DEBUG: StoreBrowserWindow(): hwnd = 327758
+- 18:37:26.157 DEBUG: ClientHandler::OnAfterCreated()
+- 18:37:26.157 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:37:26.188 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:37:26.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=A7C0D2C7FE90A4AE01C0D75488456E21 --mojo-platform-channel-handle=1804 /prefetch:2
+- 18:37:26.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=renderer --no-sandbox --primordial-pipe-token=5CCFBE0C0ECD0D7FB12B81569526CF72 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5CCFBE0C0ECD0D7FB12B81569526CF72 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+[1218/183726.190:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:37:26.062 DEBUG: OnBrowserCreated()
+- 18:37:26.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 18:37:27.750 INFO: GET 200 /style.css
+- 18:37:27.750 INFO: GET 200 /
+- 18:37:27.766 INFO: GET 200 /banner/banner2.jpg
+- 18:37:27.625 DEBUG: OnContextCreated()
+- 18:37:27.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55011/
+- 18:37:52.688 DEBUG: WM_DESTROY
+- 18:37:52.688 DEBUG: RemoveBrowserWindow(): hwnd = 327758
+- 18:37:52.688 INFO: Stopping Mongoose web server
+- 18:37:52.688 DEBUG: Mongoose webserver stopped immediately
+- 18:37:52.719 DEBUG: OnBeforeClose() hwnd=393288
+- 18:37:52.719 DEBUG: RemoveBrowserWindow(): hwnd = 393288
+- 18:37:52.719 DEBUG: GetBrowserWindow(): not found, hwnd = 393288
+- 18:37:52.719 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:37:52.719 DEBUG: Calling CefQuitMessageLoop()
+- 18:37:52.813 INFO: Ended application
+- 18:37:52.813 INFO: --------------------------------------------------------
+- 18:38:49.000 INFO: --------------------------------------------------------
+- 18:38:49.000 INFO: Started application
+- 18:38:49.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 18:38:49.000 INFO: Log level = DEBUG4
+- 18:38:49.000 INFO: Starting Mongoose 3.9c web server
+- 18:38:49.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 18:38:49.000 INFO: Index files: index.html,index.php
+- 18:38:49.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 18:38:49.000 INFO: CGI pattern: **.php$
+- 18:38:49.000 INFO: Hide files patterns: 
+- 18:38:49.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:38:49.000 INFO: Web server url: http://127.0.0.1:55029/
+- 18:38:49.000 INFO: remote_debugging_port = 64834
+- 18:38:49.000 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=64834
+- 18:38:49.078 DEBUG: App::OnContextInitialized()
+- 18:38:49.078 DEBUG: Window max width/height = 1286/680
+- 18:38:49.078 DEBUG: GetBrowserWindow(): not found, hwnd = 853278
+- 18:38:49.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:38:49.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:38:49.093 DEBUG: StoreBrowserWindow(): hwnd = 853278
+- 18:38:49.156 DEBUG: ClientHandler::OnAfterCreated()
+- 18:38:49.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:38:49.016 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=153D9D33A18F20B4854EAE3964345C8A --mojo-platform-channel-handle=1768 /prefetch:2
+- 18:38:49.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:38:49.016 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=renderer --no-sandbox --primordial-pipe-token=00C41AF593995C2166E5AD698E7585E5 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=00C41AF593995C2166E5AD698E7585E5 --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+[1218/183849.699:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:38:49.063 DEBUG: OnBrowserCreated()
+- 18:38:49.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 18:38:50.578 INFO: GET 200 /
+- 18:38:50.593 INFO: GET 200 /style.css
+- 18:38:50.344 DEBUG: OnContextCreated()
+- 18:38:50.609 INFO: GET 200 /banner/banner2.jpg
+- 18:38:51.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55029/
+- 18:39:07.312 DEBUG: WM_DESTROY
+- 18:39:07.312 DEBUG: RemoveBrowserWindow(): hwnd = 853278
+- 18:39:07.312 INFO: Stopping Mongoose web server
+- 18:39:07.312 DEBUG: Mongoose webserver stopped immediately
+- 18:39:07.328 DEBUG: OnBeforeClose() hwnd=984934
+- 18:39:07.328 DEBUG: RemoveBrowserWindow(): hwnd = 984934
+- 18:39:07.328 DEBUG: GetBrowserWindow(): not found, hwnd = 984934
+- 18:39:07.328 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:39:07.328 DEBUG: Calling CefQuitMessageLoop()
+- 18:39:07.406 INFO: Ended application
+- 18:39:07.406 INFO: --------------------------------------------------------
+- 18:54:58.000 INFO: --------------------------------------------------------
+- 18:54:58.000 INFO: Started application
+- 18:54:58.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 18:54:58.000 INFO: Log level = DEBUG4
+- 18:54:58.000 INFO: Starting Mongoose 3.9c web server
+- 18:54:58.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 18:54:58.000 INFO: Index files: index.html,index.php
+- 18:54:58.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 18:54:58.000 INFO: CGI pattern: **.php$
+- 18:54:58.000 INFO: Hide files patterns: 
+- 18:54:58.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:54:58.000 INFO: Web server url: http://127.0.0.1:55403/
+- 18:54:58.000 INFO: remote_debugging_port = 60335
+- 18:54:58.000 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=60335
+- 18:55:00.297 DEBUG: App::OnContextInitialized()
+- 18:55:00.297 DEBUG: Window max width/height = 1286/680
+- 18:55:00.297 DEBUG: GetBrowserWindow(): not found, hwnd = 133130
+- 18:55:00.297 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:55:00.312 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:55:00.312 DEBUG: StoreBrowserWindow(): hwnd = 133130
+- 18:55:00.016 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=64039F67690594B4074F68B1BCB2ADBF --mojo-platform-channel-handle=1776 /prefetch:2
+- 18:55:00.391 DEBUG: ClientHandler::OnAfterCreated()
+- 18:55:00.391 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:55:00.437 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:55:00.016 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=renderer --no-sandbox --primordial-pipe-token=628A13AF0DE206829EACC4392C8144BC --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=628A13AF0DE206829EACC4392C8144BC --renderer-client-id=3 --mojo-platform-channel-handle=2384 /prefetch:1
+- 18:55:00.047 DEBUG: OnBrowserCreated()
+- 18:55:00.063 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[1218/185500.473:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:55:02.312 INFO: GET 200 /
+- 18:55:02.328 INFO: GET 200 /style.css
+- 18:55:02.797 DEBUG: OnContextCreated()
+- 18:55:02.344 INFO: GET 200 /banner/banner2.jpg
+- 18:55:02.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55403/
+- 18:55:17.734 DEBUG: WM_DESTROY
+- 18:55:17.734 DEBUG: RemoveBrowserWindow(): hwnd = 133130
+- 18:55:17.734 INFO: Stopping Mongoose web server
+- 18:55:17.734 DEBUG: Mongoose webserver stopped immediately
+- 18:55:17.750 DEBUG: OnBeforeClose() hwnd=133122
+- 18:55:17.750 DEBUG: RemoveBrowserWindow(): hwnd = 133122
+- 18:55:17.750 DEBUG: GetBrowserWindow(): not found, hwnd = 133122
+- 18:55:17.750 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:55:17.750 DEBUG: Calling CefQuitMessageLoop()
+- 18:55:17.812 INFO: Ended application
+- 18:55:17.812 INFO: --------------------------------------------------------
+- 18:57:27.000 INFO: --------------------------------------------------------
+- 18:57:27.000 INFO: Started application
+- 18:57:27.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 18:57:27.000 INFO: Log level = DEBUG4
+- 18:57:27.000 INFO: Starting Mongoose 3.9c web server
+- 18:57:27.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 18:57:27.000 INFO: Index files: index.html,index.php
+- 18:57:27.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 18:57:27.000 INFO: CGI pattern: **.php$
+- 18:57:27.000 INFO: Hide files patterns: 
+- 18:57:27.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:57:27.000 INFO: Web server url: http://127.0.0.1:55466/
+- 18:57:27.000 INFO: remote_debugging_port = 49693
+- 18:57:27.000 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=49693
+- 18:57:27.093 DEBUG: App::OnContextInitialized()
+- 18:57:27.093 DEBUG: Window max width/height = 1286/680
+- 18:57:27.093 DEBUG: GetBrowserWindow(): not found, hwnd = 198726
+- 18:57:27.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:57:27.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:57:27.093 DEBUG: StoreBrowserWindow(): hwnd = 198726
+- 18:57:27.016 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=AC186A807890D672A70CAB771FB74F94 --mojo-platform-channel-handle=1752 /prefetch:2
+- 18:57:27.187 DEBUG: ClientHandler::OnAfterCreated()
+- 18:57:27.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:57:27.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:57:27.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=renderer --no-sandbox --primordial-pipe-token=FC8786490A39507940F8B835B78D497A --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FC8786490A39507940F8B835B78D497A --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 18:57:27.063 DEBUG: OnBrowserCreated()
+[1218/185727.837:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:57:27.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 18:57:29.687 INFO: GET 200 /style.css
+- 18:57:29.687 INFO: GET 200 /
+- 18:57:29.687 INFO: GET 200 /banner/banner2.jpg
+- 18:57:29.469 DEBUG: OnContextCreated()
+- 18:57:29.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55466/
+- 18:58:19.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55466/
+- 18:58:19.906 DEBUG: OnContextCreated()
+- 18:58:19.218 INFO: POST 200 /
+- 18:58:19.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55466/
+- 18:58:40.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55466/
+- 18:58:40.125 DEBUG: OnContextCreated()
+- 18:58:40.437 INFO: POST 200 /
+- 18:58:40.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55466/
+- 18:59:15.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55466/
+- 18:59:15.922 DEBUG: OnContextCreated()
+- 18:59:15.234 INFO: POST 200 /
+- 18:59:15.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55466/
+- 18:59:24.125 DEBUG: WM_DESTROY
+- 18:59:24.125 DEBUG: RemoveBrowserWindow(): hwnd = 198726
+- 18:59:24.125 INFO: Stopping Mongoose web server
+- 18:59:24.125 DEBUG: Mongoose webserver stopped immediately
+- 18:59:24.125 DEBUG: OnBeforeClose() hwnd=198716
+- 18:59:24.125 DEBUG: RemoveBrowserWindow(): hwnd = 198716
+- 18:59:24.125 DEBUG: GetBrowserWindow(): not found, hwnd = 198716
+- 18:59:24.125 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:59:24.125 DEBUG: Calling CefQuitMessageLoop()
+- 18:59:24.828 DEBUG: OnBrowserDestroyed()
+- 18:59:24.203 INFO: Ended application
+- 18:59:24.203 INFO: --------------------------------------------------------
+- 13:06:05.016 INFO: --------------------------------------------------------
+- 13:06:05.016 INFO: Started application
+- 13:06:05.016 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:06:05.016 INFO: Log level = DEBUG4
+- 13:06:05.016 INFO: Starting Mongoose 3.9c web server
+- 13:06:05.016 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:06:05.016 INFO: Index files: index.html,index.php
+- 13:06:05.016 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:06:05.016 INFO: CGI pattern: **.php$
+- 13:06:05.016 INFO: Hide files patterns: 
+- 13:06:05.016 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:06:05.031 INFO: Web server url: http://127.0.0.1:50012/
+- 13:06:05.031 INFO: remote_debugging_port = 55672
+- 13:06:05.063 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=55672
+- 13:06:07.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=38340BFA17DA7F7D94153D1A5699534D --mojo-platform-channel-handle=1888 /prefetch:2
+- 13:06:07.250 DEBUG: App::OnContextInitialized()
+- 13:06:07.250 DEBUG: Window max width/height = 1286/680
+- 13:06:07.250 DEBUG: GetBrowserWindow(): not found, hwnd = 395128
+- 13:06:07.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:06:07.250 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:06:07.250 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:06:07.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:06:07.266 DEBUG: StoreBrowserWindow(): hwnd = 395128
+- 13:06:07.375 DEBUG: ClientHandler::OnAfterCreated()
+- 13:06:07.375 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:06:07.422 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:06:07.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=renderer --no-sandbox --primordial-pipe-token=3394CDFDF51322C1F7D57C8076766E71 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3394CDFDF51322C1F7D57C8076766E71 --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+- 13:06:08.219 DEBUG: OnBrowserCreated()
+- 13:06:08.281 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[1224/130608.451:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:06:10.875 INFO: GET 200 /
+- 13:06:10.891 INFO: GET 200 /style.css
+- 13:06:10.484 DEBUG: OnContextCreated()
+- 13:06:10.969 INFO: GET 200 /banner/banner2.jpg
+- 13:06:10.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50012/
+- 13:06:14.063 DEBUG: WM_DESTROY
+- 13:06:14.063 DEBUG: RemoveBrowserWindow(): hwnd = 395128
+- 13:06:14.063 INFO: Stopping Mongoose web server
+- 13:06:14.063 DEBUG: Mongoose webserver stopped immediately
+- 13:06:14.063 DEBUG: OnBeforeClose() hwnd=394290
+- 13:06:14.063 DEBUG: RemoveBrowserWindow(): hwnd = 394290
+- 13:06:14.063 DEBUG: GetBrowserWindow(): not found, hwnd = 394290
+- 13:06:14.063 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:06:14.063 DEBUG: Calling CefQuitMessageLoop()
+- 13:06:14.156 INFO: Ended application
+- 13:06:14.156 INFO: --------------------------------------------------------
+- 13:10:46.015 INFO: --------------------------------------------------------
+- 13:10:46.015 INFO: Started application
+- 13:10:46.015 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:10:46.015 INFO: Log level = DEBUG4
+- 13:10:46.015 INFO: Starting Mongoose 3.9c web server
+- 13:10:46.015 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:10:46.015 INFO: Index files: index.html,index.php
+- 13:10:46.015 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:10:46.015 INFO: CGI pattern: **.php$
+- 13:10:46.015 INFO: Hide files patterns: 
+- 13:10:46.015 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:10:46.015 INFO: Web server url: http://127.0.0.1:50037/
+- 13:10:46.015 INFO: remote_debugging_port = 52342
+- 13:10:46.015 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi_original.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=52342
+- 13:10:46.078 DEBUG: App::OnContextInitialized()
+- 13:10:46.078 DEBUG: Window max width/height = 1286/680
+- 13:10:46.094 DEBUG: GetBrowserWindow(): not found, hwnd = 394936
+- 13:10:46.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:10:46.094 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:10:46.094 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:10:46.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:10:46.094 DEBUG: StoreBrowserWindow(): hwnd = 394936
+- 13:10:46.187 DEBUG: ClientHandler::OnAfterCreated()
+- 13:10:46.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:10:46.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:10:46.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi_original.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=81CEE6A0EAECE61F214F3A58A0B9A550 --mojo-platform-channel-handle=1800 /prefetch:2
+- 13:10:46.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi_original.exe" --type=renderer --no-sandbox --primordial-pipe-token=BB15F325C018C44A50ABA6E80F07E9C5 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BB15F325C018C44A50ABA6E80F07E9C5 --renderer-client-id=3 --mojo-platform-channel-handle=2392 /prefetch:1
+[1224/131046.852:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:10:46.062 DEBUG: OnBrowserCreated()
+- 13:10:46.062 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:10:48.719 INFO: GET 200 /style.css
+- 13:10:48.719 INFO: GET 200 /
+- 13:10:48.719 INFO: GET 200 /banner/banner2.jpg
+- 13:10:48.515 DEBUG: OnContextCreated()
+- 13:10:48.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50037/
+- 13:10:51.672 DEBUG: WM_DESTROY
+- 13:10:51.672 DEBUG: RemoveBrowserWindow(): hwnd = 394936
+- 13:10:51.672 INFO: Stopping Mongoose web server
+- 13:10:51.672 DEBUG: Mongoose webserver stopped immediately
+- 13:10:51.687 DEBUG: OnBeforeClose() hwnd=657144
+- 13:10:51.687 DEBUG: RemoveBrowserWindow(): hwnd = 657144
+- 13:10:51.687 DEBUG: GetBrowserWindow(): not found, hwnd = 657144
+- 13:10:51.687 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:10:51.687 DEBUG: Calling CefQuitMessageLoop()
+- 13:10:51.781 INFO: Ended application
+- 13:10:51.781 INFO: --------------------------------------------------------
+- 13:10:54.000 INFO: --------------------------------------------------------
+- 13:10:54.000 INFO: Started application
+- 13:10:54.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:10:54.000 INFO: Log level = DEBUG4
+- 13:10:54.000 INFO: Starting Mongoose 3.9c web server
+- 13:10:54.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:10:54.000 INFO: Index files: index.html,index.php
+- 13:10:54.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:10:54.000 INFO: CGI pattern: **.php$
+- 13:10:54.000 INFO: Hide files patterns: 
+- 13:10:54.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:10:54.000 INFO: Web server url: http://127.0.0.1:50041/
+- 13:10:54.000 INFO: remote_debugging_port = 65363
+- 13:10:54.016 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=65363
+- 13:10:54.079 DEBUG: App::OnContextInitialized()
+- 13:10:54.079 DEBUG: Window max width/height = 1286/680
+- 13:10:55.079 DEBUG: GetBrowserWindow(): not found, hwnd = 329518
+- 13:10:55.079 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:10:55.079 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:10:55.079 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:10:55.079 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:10:55.079 DEBUG: StoreBrowserWindow(): hwnd = 329518
+- 13:10:55.172 DEBUG: ClientHandler::OnAfterCreated()
+- 13:10:55.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:10:55.204 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:10:55.016 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=F97FFF99C5B8C9CEDE60A4129A8DED39 --mojo-platform-channel-handle=1800 /prefetch:2
+- 13:10:55.016 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi.exe" --type=renderer --no-sandbox --primordial-pipe-token=8F521028190D2098818D1AC0A33F4CE8 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8F521028190D2098818D1AC0A33F4CE8 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[1224/131055.247:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:10:55.063 DEBUG: OnBrowserCreated()
+- 13:10:55.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:10:56.704 INFO: GET 200 /style.css
+- 13:10:56.704 INFO: GET 200 /
+- 13:10:56.704 INFO: GET 200 /banner/banner2.jpg
+- 13:10:56.500 DEBUG: OnContextCreated()
+- 13:10:56.829 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50041/
+- 13:11:00.094 DEBUG: WM_DESTROY
+- 13:11:00.094 DEBUG: RemoveBrowserWindow(): hwnd = 329518
+- 13:11:00.094 INFO: Stopping Mongoose web server
+- 13:11:00.094 DEBUG: Mongoose webserver stopped immediately
+- 13:11:00.094 DEBUG: OnBeforeClose() hwnd=722680
+- 13:11:00.094 DEBUG: RemoveBrowserWindow(): hwnd = 722680
+- 13:11:00.094 DEBUG: GetBrowserWindow(): not found, hwnd = 722680
+- 13:11:00.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:11:00.094 DEBUG: Calling CefQuitMessageLoop()
+- 13:11:00.204 INFO: Ended application
+- 13:11:00.204 INFO: --------------------------------------------------------
+- 13:11:29.000 INFO: --------------------------------------------------------
+- 13:11:29.000 INFO: Started application
+- 13:11:29.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:11:29.000 INFO: Log level = DEBUG4
+- 13:11:29.000 INFO: Starting Mongoose 3.9c web server
+- 13:11:29.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:11:29.000 INFO: Index files: index.html,index.php
+- 13:11:29.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:11:29.000 INFO: CGI pattern: **.php$
+- 13:11:29.000 INFO: Hide files patterns: 
+- 13:11:29.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:11:29.000 INFO: Web server url: http://127.0.0.1:50045/
+- 13:11:29.000 INFO: remote_debugging_port = 57542
+- 13:11:29.015 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\aplikasi_original.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=57542
+- 13:11:29.078 DEBUG: App::OnContextInitialized()
+- 13:11:29.078 DEBUG: Window max width/height = 1286/680
+- 13:11:29.078 DEBUG: GetBrowserWindow(): not found, hwnd = 394902
+- 13:11:29.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:11:29.078 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:11:29.078 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:11:29.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:11:29.078 DEBUG: StoreBrowserWindow(): hwnd = 394902
+- 13:11:29.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\aplikasi_original.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=D6F36F606FA59346EABDA135E2188079 --mojo-platform-channel-handle=1776 /prefetch:2
+- 13:11:29.171 DEBUG: ClientHandler::OnAfterCreated()
+- 13:11:29.171 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:11:29.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:11:29.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\aplikasi_original.exe" --type=renderer --no-sandbox --primordial-pipe-token=9F963682430BF379DF5E8CF6BE4586C3 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9F963682430BF379DF5E8CF6BE4586C3 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+[1224/131129.684:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:11:29.063 DEBUG: OnBrowserCreated()
+- 13:11:29.063 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:11:31.640 INFO: GET 200 /style.css
+- 13:11:31.640 INFO: GET 200 /
+- 13:11:31.640 INFO: GET 200 /banner/banner2.jpg
+- 13:11:31.563 DEBUG: OnContextCreated()
+- 13:11:31.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50045/
+- 13:11:32.953 DEBUG: WM_DESTROY
+- 13:11:32.953 DEBUG: RemoveBrowserWindow(): hwnd = 394902
+- 13:11:32.953 INFO: Stopping Mongoose web server
+- 13:11:32.953 DEBUG: Mongoose webserver stopped immediately
+- 13:11:32.953 DEBUG: OnBeforeClose() hwnd=591252
+- 13:11:32.953 DEBUG: RemoveBrowserWindow(): hwnd = 591252
+- 13:11:32.953 DEBUG: GetBrowserWindow(): not found, hwnd = 591252
+- 13:11:32.953 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:11:32.953 DEBUG: Calling CefQuitMessageLoop()
+- 13:11:32.015 INFO: Ended application
+- 13:11:32.015 INFO: --------------------------------------------------------
+- 13:11:47.000 INFO: --------------------------------------------------------
+- 13:11:47.000 INFO: Started application
+- 13:11:47.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:11:47.000 INFO: Log level = DEBUG4
+- 13:11:47.000 INFO: Starting Mongoose 3.9c web server
+- 13:11:47.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:11:47.000 INFO: Index files: index.html,index.php
+- 13:11:47.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:11:47.000 INFO: CGI pattern: **.php$
+- 13:11:47.000 INFO: Hide files patterns: 
+- 13:11:47.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:11:47.015 INFO: Web server url: http://127.0.0.1:50049/
+- 13:11:47.015 INFO: remote_debugging_port = 53821
+- 13:11:47.015 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=53821
+- 13:11:47.078 DEBUG: App::OnContextInitialized()
+- 13:11:47.078 DEBUG: Window max width/height = 1286/680
+- 13:11:47.078 DEBUG: GetBrowserWindow(): not found, hwnd = 722516
+- 13:11:47.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:11:47.094 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:11:47.094 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:11:47.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:11:47.094 DEBUG: StoreBrowserWindow(): hwnd = 722516
+- 13:11:47.187 DEBUG: ClientHandler::OnAfterCreated()
+- 13:11:47.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:11:47.016 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=AF51D9FDD2CF42425EF12AB94B38E0DE --mojo-platform-channel-handle=1796 /prefetch:2
+- 13:11:47.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:11:47.015 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=renderer --no-sandbox --primordial-pipe-token=D24CCA7FB87969A3E49F9B25B02BB7B8 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D24CCA7FB87969A3E49F9B25B02BB7B8 --renderer-client-id=3 --mojo-platform-channel-handle=2392 /prefetch:1
+[1224/131147.861:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:11:47.062 DEBUG: OnBrowserCreated()
+- 13:11:47.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:11:49.734 INFO: GET 200 /style.css
+- 13:11:49.734 INFO: GET 200 /
+- 13:11:49.750 INFO: GET 200 /banner/banner2.jpg
+- 13:11:49.531 DEBUG: OnContextCreated()
+- 13:11:49.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50049/
+- 13:11:50.812 DEBUG: WM_DESTROY
+- 13:11:50.812 DEBUG: RemoveBrowserWindow(): hwnd = 722516
+- 13:11:50.812 INFO: Stopping Mongoose web server
+- 13:11:50.812 DEBUG: Mongoose webserver stopped immediately
+- 13:11:50.828 DEBUG: OnBeforeClose() hwnd=656468
+- 13:11:50.828 DEBUG: RemoveBrowserWindow(): hwnd = 656468
+- 13:11:50.828 DEBUG: GetBrowserWindow(): not found, hwnd = 656468
+- 13:11:50.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:11:50.828 DEBUG: Calling CefQuitMessageLoop()
+- 13:11:50.922 INFO: Ended application
+- 13:11:50.922 INFO: --------------------------------------------------------
+- 13:13:55.000 INFO: --------------------------------------------------------
+- 13:13:55.000 INFO: Started application
+- 13:13:55.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:13:55.000 INFO: Log level = DEBUG4
+- 13:13:55.000 INFO: Starting Mongoose 3.9c web server
+- 13:13:55.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:13:55.000 INFO: Index files: index.html,index.php
+- 13:13:55.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:13:55.000 INFO: CGI pattern: **.php$
+- 13:13:55.000 INFO: Hide files patterns: 
+- 13:13:55.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:13:55.016 INFO: Web server url: http://127.0.0.1:50062/
+- 13:13:55.016 INFO: remote_debugging_port = 56322
+- 13:13:55.016 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=56322
+- 13:13:55.078 DEBUG: App::OnContextInitialized()
+- 13:13:55.078 DEBUG: Window max width/height = 1286/680
+- 13:13:55.078 DEBUG: GetBrowserWindow(): not found, hwnd = 983836
+- 13:13:55.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:13:55.094 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:13:55.094 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:13:55.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:13:55.094 DEBUG: StoreBrowserWindow(): hwnd = 983836
+- 13:13:55.172 DEBUG: ClientHandler::OnAfterCreated()
+- 13:13:55.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:13:55.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=42D43DA7209BFAA7E744FF7248B7F80F --mojo-platform-channel-handle=1788 /prefetch:2
+- 13:13:55.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:13:55.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=renderer --no-sandbox --primordial-pipe-token=BA94B8B06726373ABE442BD95CE6C5F5 --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BA94B8B06726373ABE442BD95CE6C5F5 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[1224/131355.972:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:13:55.063 DEBUG: OnBrowserCreated()
+- 13:13:55.079 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:13:57.703 INFO: GET 200 /style.css
+- 13:13:57.703 INFO: GET 200 /
+- 13:13:57.719 INFO: GET 200 /banner/banner2.jpg
+- 13:13:57.532 DEBUG: OnContextCreated()
+- 13:13:57.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50062/
+- 13:13:59.703 DEBUG: WM_DESTROY
+- 13:13:59.703 DEBUG: RemoveBrowserWindow(): hwnd = 983836
+- 13:13:59.703 INFO: Stopping Mongoose web server
+- 13:13:59.703 DEBUG: Mongoose webserver stopped immediately
+- 13:13:59.703 DEBUG: OnBeforeClose() hwnd=394870
+- 13:13:59.703 DEBUG: RemoveBrowserWindow(): hwnd = 394870
+- 13:13:59.703 DEBUG: GetBrowserWindow(): not found, hwnd = 394870
+- 13:13:59.703 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:13:59.703 DEBUG: Calling CefQuitMessageLoop()
+- 13:13:59.813 INFO: Ended application
+- 13:13:59.813 INFO: --------------------------------------------------------
+- 13:14:11.016 INFO: --------------------------------------------------------
+- 13:14:11.016 INFO: Started application
+- 13:14:11.016 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:14:11.016 INFO: Log level = DEBUG4
+- 13:14:11.016 INFO: Starting Mongoose 3.9c web server
+- 13:14:11.016 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:14:11.016 INFO: Index files: index.html,index.php
+- 13:14:11.016 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:14:11.016 INFO: CGI pattern: **.php$
+- 13:14:11.016 INFO: Hide files patterns: 
+- 13:14:11.016 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:14:11.016 INFO: Web server url: http://127.0.0.1:50066/
+- 13:14:11.016 INFO: remote_debugging_port = 52602
+- 13:14:11.016 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=52602
+- 13:14:11.094 DEBUG: App::OnContextInitialized()
+- 13:14:11.094 DEBUG: Window max width/height = 1286/680
+- 13:14:11.094 DEBUG: GetBrowserWindow(): not found, hwnd = 591534
+- 13:14:11.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:14:11.094 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:14:11.094 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:14:11.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:14:11.094 DEBUG: StoreBrowserWindow(): hwnd = 591534
+- 13:14:11.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=CB087BB85AE53EA7CA9D1EE34199A62A --mojo-platform-channel-handle=1776 /prefetch:2
+- 13:14:11.188 DEBUG: ClientHandler::OnAfterCreated()
+- 13:14:11.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:14:12.204 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:14:12.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=renderer --no-sandbox --primordial-pipe-token=3A7C7ABCBC0EDDC2BE118C46A882B83F --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3A7C7ABCBC0EDDC2BE118C46A882B83F --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+[1224/131412.091:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:14:12.062 DEBUG: OnBrowserCreated()
+- 13:14:12.062 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:14:13.719 INFO: GET 200 /style.css
+- 13:14:13.735 INFO: GET 200 /
+- 13:14:13.735 INFO: GET 200 /banner/banner2.jpg
+- 13:14:13.593 DEBUG: OnContextCreated()
+- 13:14:13.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50066/
+- 13:14:16.219 DEBUG: WM_DESTROY
+- 13:14:16.219 DEBUG: RemoveBrowserWindow(): hwnd = 591534
+- 13:14:16.219 INFO: Stopping Mongoose web server
+- 13:14:16.219 DEBUG: Mongoose webserver stopped immediately
+- 13:14:16.219 DEBUG: OnBeforeClose() hwnd=1049372
+- 13:14:16.219 DEBUG: RemoveBrowserWindow(): hwnd = 1049372
+- 13:14:16.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1049372
+- 13:14:16.219 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:14:16.219 DEBUG: Calling CefQuitMessageLoop()
+- 13:14:16.297 INFO: Ended application
+- 13:14:16.297 INFO: --------------------------------------------------------
+- 13:14:25.000 INFO: --------------------------------------------------------
+- 13:14:25.000 INFO: Started application
+- 13:14:25.000 INFO: Logging to: D:\Projek\manual-kata-solidsport-app\debug.log
+- 13:14:25.000 INFO: Log level = DEBUG4
+- 13:14:25.000 INFO: Starting Mongoose 3.9c web server
+- 13:14:25.000 INFO: WWW directory: D:\Projek\manual-kata-solidsport-app\www
+- 13:14:25.000 INFO: Index files: index.html,index.php
+- 13:14:25.000 INFO: CGI interpreter: D:\Projek\manual-kata-solidsport-app\php\php-cgi.exe
+- 13:14:25.000 INFO: CGI pattern: **.php$
+- 13:14:25.000 INFO: Hide files patterns: 
+- 13:14:25.000 INFO: CGI environment variables set: TMP=C:\Users\Razania\AppData\Local\Temp\,TEMP=C:\Users\Razania\AppData\Local\Temp\,TMPDIR=C:\Users\Razania\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:14:25.000 INFO: Web server url: http://127.0.0.1:50070/
+- 13:14:25.000 INFO: remote_debugging_port = 51524
+- 13:14:25.000 DEBUG: Command line string for the browser process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --remote-debugging-port=51524
+- 13:14:25.063 DEBUG: App::OnContextInitialized()
+- 13:14:25.063 DEBUG: Window max width/height = 1286/680
+- 13:14:25.063 DEBUG: GetBrowserWindow(): not found, hwnd = 1377696
+- 13:14:25.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:14:25.078 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:14:25.078 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:14:25.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:14:25.078 DEBUG: StoreBrowserWindow(): hwnd = 1377696
+- 13:14:25.000 DEBUG: Command line string for the gpu-process process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6518 --gpu-driver-date=1-9-2019 --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --service-request-channel-token=86D9D4111259B4F32886FD63A4920F43 --mojo-platform-channel-handle=1772 /prefetch:2
+- 13:14:25.157 DEBUG: ClientHandler::OnAfterCreated()
+- 13:14:25.157 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:14:25.188 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:14:25.000 DEBUG: Command line string for the renderer process: "D:\Projek\manual-kata-solidsport-app\solidsports-kata.exe" --type=renderer --no-sandbox --primordial-pipe-token=115ACDEE907E62B72A57A29793C7090F --lang=en-US --lang=en-US --log-file="D:\Projek\manual-kata-solidsport-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=115ACDEE907E62B72A57A29793C7090F --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+[1224/131425.522:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:14:25.063 DEBUG: OnBrowserCreated()
+- 13:14:25.078 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 13:14:26.688 INFO: GET 200 /style.css
+- 13:14:26.688 INFO: GET 200 /
+- 13:14:26.688 INFO: GET 200 /banner/banner2.jpg
+- 13:14:26.516 DEBUG: OnContextCreated()
+- 13:14:27.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50070/
+- 13:14:28.578 DEBUG: WM_DESTROY
+- 13:14:28.578 DEBUG: RemoveBrowserWindow(): hwnd = 1377696
+- 13:14:28.578 INFO: Stopping Mongoose web server
+- 13:14:28.578 DEBUG: Mongoose webserver stopped immediately
+- 13:14:28.578 DEBUG: OnBeforeClose() hwnd=525942
+- 13:14:28.578 DEBUG: RemoveBrowserWindow(): hwnd = 525942
+- 13:14:28.578 DEBUG: GetBrowserWindow(): not found, hwnd = 525942
+- 13:14:28.578 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:14:28.578 DEBUG: Calling CefQuitMessageLoop()
+- 13:14:28.703 INFO: Ended application
+- 13:14:28.703 INFO: --------------------------------------------------------
